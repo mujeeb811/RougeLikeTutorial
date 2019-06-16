@@ -35,7 +35,7 @@ def main():
         if move:
             dx, dy = move
             player_x += dx
-            player_y += dy6
+            player_y += dy
         
         if exit:
             return True
@@ -45,5 +45,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
